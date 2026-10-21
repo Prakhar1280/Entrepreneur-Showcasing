@@ -16,5 +16,5 @@ An interactive, responsive single-page web application exploring the trajectory,
 ## How to Run / View Locally
 1. Clone or download this repository:
    ```bash
-   git clone [https://github.com/](https://github.com/)Prakkhar1280/alex-karp-showcase.git
+   git clone [https://github.com/](https://github.com/Prakhar1280/alex-karp-showcase.git)
    cd alex-karp-showcase
