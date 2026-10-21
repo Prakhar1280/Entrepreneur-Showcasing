@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Karp | Interactive Entrepreneur Showcase</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-brand">EDC Showcase <span>/ Alex Karp</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#journey">Milestones</a></li>
+      <li><a href="#ventures">Ventures</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero / Introduction -->
+  <header id="about" class="hero-section">
+    <div class="hero-container">
+      <div class="hero-avatar">
+        <div class="avatar-placeholder">AK</div>
+      </div>
+      <div class="hero-text">
+        <span class="badge">Co-Founder & CEO — Palantir Technologies</span>
+        <h1>Alexander Caedmon Karp</h1>
+        <p class="tagline">Philosopher turned tech titan anchoring democratic defense and enterprise AI.</p>
+        <p class="bio">
+          Holding a Ph.D. in neoclassical social theory rather than a computer science degree, Dr. Alex Karp breaks every Silicon Valley mold. Since co-founding Palantir Technologies in 2003 alongside Peter Thiel, he has spearheaded the creation of critical data intelligence architectures for Western democracies, intelligence agencies, and Fortune 500 enterprises.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Chronological Journey (Rendered via JS Data Array) -->
+  <section id="journey" class="content-section">
+    <div class="section-header">
+      <h2>Chronological Journey</h2>
+      <p>Key milestones shaping Karp's unconventional transition from academia to defense tech.</p>
+    </div>
+    <div id="timeline-container" class="timeline"></div>
+  </section>
+
+  <!-- Ventures & Products (Interactive Cards Rendered via JS) -->
+  <section id="ventures" class="content-section bg-alt">
+    <div class="section-header">
+      <h2>Ventures & Core Platforms</h2>
+      <p>Click on any card to explore details, system architecture, and official resources.</p>
+    </div>
+    <div class="filter-controls">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="Enterprise">Enterprise</button>
+      <button class="filter-btn" data-filter="Defense">Defense</button>
+      <button class="filter-btn" data-filter="Finance">Finance</button>
+    </div>
+    <div id="ventures-grid" class="ventures-grid"></div>
+  </section>
+
+  <!-- Impact & Takeaways -->
+  <section id="impact" class="content-section">
+    <div class="section-header">
+      <h2>Impact & Core Lessons</h2>
+      <p>Strategic contributions to the software industry and takeaways for aspiring founders.</p>
+    </div>
+    <div class="impact-grid">
+      <div class="impact-card">
+        <h3>1. Mission-Critical Software Infrastructure</h3>
+        <p>Karp positioned Palantir as the foundational operating system for Western defense and counter-terrorism operations, demonstrating how software engineering can directly support democratic institutional integrity.</p>
+      </div>
+      <div class="impact-card">
+        <h3>2. Unconventional Culture & Enterprise AIP</h3>
+        <p>Rejecting traditional Silicon Valley commercial norms, Karp steered Palantir through a direct public listing (NYSE: PLTR in 2020) and pioneered AI Platform (AIP) deployment across critical supply chains and healthcare systems.</p>
+      </div>
+      <div class="impact-card">
+        <h3>Takeaway: First Principles Over Consensus</h3>
+        <p>Karp proved that an education in philosophy, classical theory, and ethics can yield deep strategic foresight—countering tech orthodoxy to build high-barrier, contrarian enterprises.</p>
+      </div>
+      <div class="impact-card">
+        <h3>Takeaway: Stand Unapologetically Behind Your Mission</h3>
+        <p>In an era where tech firms avoided defense and government partnerships, Karp championed technological parity for democratic allies, demonstrating the power of unwavering institutional focus.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sources & References -->
+  <section id="sources" class="content-section bg-alt">
+    <div class="section-header">
+      <h2>Verified Sources & Citations</h2>
+      <p>All factual claims, milestones, and venture profiles are cross-referenced with primary sources.</p>
+    </div>
+    <ul class="sources-list">
+      <li><a href="https://www.britannica.com/money/Alex-Karp" target="_blank" rel="noopener">Encyclopaedia Britannica: Alex Karp Biography & Education</a></li>
+      <li><a href="https://www.forbes.com/profile/alexander-karp/" target="_blank" rel="noopener">Forbes: Alexander Karp Net Worth & Business Overview</a></li>
+      <li><a href="https://www.palantir.com" target="_blank" rel="noopener">Palantir Technologies Official Portal & Platform Architectures</a></li>
+      <li><a href="https://www.weforum.org/people/alex-karp" target="_blank" rel="noopener">World Economic Forum: Alex Karp Leadership Profile</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>EDC JSS University Recruitment 2026 | Technical Team Task 02 Showcase</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
